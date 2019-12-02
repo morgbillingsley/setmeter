@@ -1,0 +1,5 @@
+#!/usr/bin/php
+<?php
+$publicFolder = dirname(__DIR__) . '/public/';
+shell_exec('php -S localhost:8000 -t ' . $publicFolder);
+?>
